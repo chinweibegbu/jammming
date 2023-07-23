@@ -1,0 +1,25 @@
+.tracks-scrollable {
+    padding-right: 20px;
+    height: 400px;
+    overflow-y: scroll;
+}
+
+.tracks-scrollable::-webkit-scrollbar {
+    width: 10px;
+}
+   
+.tracks-scrollable::-webkit-scrollbar-track {
+    border-radius: 8px;
+    background-color: rgba(165, 165, 165, 0.4);
+}
+
+.tracks-scrollable::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background-color: rgb(255,255,255,0.8);
+}
+
+ul.tracks{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}

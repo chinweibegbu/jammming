@@ -1,4 +1,4 @@
-export const searchResults = [
+export const data = [
     {
         titleTrack: 'DOMINO',
         artist: 'Stray Kids',

@@ -1,12 +1,12 @@
 import React from 'react';
 import '../styles/Track.css';
 
-function Track({resultDetails}) {
+function Track({trackDetails}) {
     return (
         <div className='track'>
             <div>
-                <p className='track-title'>{resultDetails.titleTrack}</p>
-                <p className='track-details'>{resultDetails.artist} | {resultDetails.albumName}</p>
+                <p className='track-title'>{trackDetails.titleTrack}</p>
+                <p className='track-details'>{trackDetails.artist} | {trackDetails.albumName}</p>
             </div>
             <div>
                 <img className='add-track-icon' src={require('../add-icon-thin.png')} alt='Add'/>

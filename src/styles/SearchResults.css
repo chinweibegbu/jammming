@@ -11,29 +11,3 @@
     font-size: 25px;
     font-weight: 600;
 }
-
-.results-scrollable {
-    padding-right: 20px;
-    height: 400px;
-    overflow-y: scroll;
-}
-
-.results-scrollable::-webkit-scrollbar {
-    width: 10px;
-}
-   
-.results-scrollable::-webkit-scrollbar-track {
-    border-radius: 8px;
-    background-color: rgba(165, 165, 165, 0.4);
-}
-
-.results-scrollable::-webkit-scrollbar-thumb {
-    border-radius: 8px;
-    background-color: rgb(255,255,255,0.8);
-}
-
-ul.results{
-    list-style-type: none;
-    display: flex;
-    flex-direction: column;
-}

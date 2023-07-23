@@ -3,10 +3,10 @@ import '../styles/Content.css';
 import Playlist from './Playlist';
 import SearchResults from './SearchResults';
 
-function Content() {
+function Content({searchResults}) {
     return (
         <div className='content'>
-            <SearchResults />
+            <SearchResults searchResults={searchResults} />
             <Playlist />
         </div>
     )
