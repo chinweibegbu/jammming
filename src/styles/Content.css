@@ -1,0 +1,13 @@
+.content {
+    padding: 10px;
+    display: flex;
+}
+
+.content > * {
+    margin: 0 10px;
+    flex: 1;
+    height: 450px;
+    background-color: rgb(38, 0, 70, 0.8);
+    color: white;
+    text-align: left;
+}
