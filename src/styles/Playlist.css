@@ -1,14 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.playlist-container {
+    padding: 0 20px;
+}
+
 .playlist-name-holder {
-    text-align: center;
+    /* min-width: 100%; */
+    text-align: left;
+    border-bottom: 1px solid grey;
+    margin-bottom: 10px;
+    padding-top: 10px;
 }
 
 #playlist-name {
-    min-width: 90%;
     text-align: left;
-    font-style: italic;
     background-color: transparent;
-    border-bottom: 1px solid white;
     border-radius: 0;
     color: white;
     font-size: 20px;
+    padding-left: 0px;
 }

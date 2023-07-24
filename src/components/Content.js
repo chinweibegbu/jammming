@@ -7,7 +7,7 @@ function Content({searchResults}) {
     return (
         <div className='content'>
             <SearchResults searchResults={searchResults} />
-            <Playlist />
+            <Playlist addedTracks={searchResults} />
         </div>
     )
 }

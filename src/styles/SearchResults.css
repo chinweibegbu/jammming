@@ -10,4 +10,6 @@
 .results-title {
     font-size: 25px;
     font-weight: 600;
+    margin: 10px 0;
+    padding-top: 10px;
 }
